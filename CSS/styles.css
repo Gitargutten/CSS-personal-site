@@ -1,0 +1,136 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Montserrat, sans-serif;
+}
+
+h1{
+  margin: 3.125rem auto 0 auto;
+  font-size: 5.625rem;
+  color: #66BFBF;
+}
+h2{
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+h3{
+  color: #11999E;
+}
+
+p{
+  color: #40514E;
+  line-height: 2;
+}
+a{
+  color: #11999E;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #7CF2EF;
+}
+hr{
+  border: dotted #393e46 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+
+
+.top-container {
+  background-color: #393e46;
+  position: relative;
+  padding-top: 100px;
+  font-family: Caveat, cursive;
+}
+
+.cloud1{
+  position:absolute;
+  right: 300px;
+  top: 50px;
+}
+.cloud2{
+  position:absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+.middle-container{
+  background-color: #eeeeee;
+  padding-bottom: 50px;
+}
+
+.portrait{
+  margin-top: 50px;
+}
+.profile-text{
+  width: 50%;
+  margin: auto;
+}
+
+
+
+.skill-row{
+  width: 50%;
+  margin: 50px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.guitar-img{
+  width: 12.5%;
+  float: left;
+  margin-right: 30px;
+}
+.computer-img{
+  width: 22.5%;
+  float: right;
+  margin-left: 30px;
+}
+.food-img{
+  width: 18%;
+  float: left;
+  margin-right: 30px;
+}
+
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -moz-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -ms-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -o-linear-gradient(top, #66BFBF, #11999E);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #11999E);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Montserrat, sans-serif;
+   font-weight: 100;
+   padding: 15px;
+   margin-top: 20px;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: 1px 1px 20px #000000;
+   border: solid #393e46 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+.btn:hover {
+   background: #7CF2EF;
+   border: solid #7CF2EF 1px;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+.bottom-container{
+  background-color: #393e46;
+  padding: 50px 0 20px;
+}
